@@ -1,5 +1,5 @@
 # ~/.config/starship.toml
-# Zenful Starship Configuration v2 - Enhanced with Additional Components
+# Zenful Starship Configuration by kael
 
 add_newline = true
 command_timeout = 2000
@@ -92,22 +92,20 @@ truncation_length = 3
 truncate_to_repo = true
 truncation_symbol = "…/"
 format = "[$path]($style)[$read_only]($read_only_style) "
-home_symbol = "󰋜"
+home_symbol = " 󰋜 "
 
 [directory.substitutions]
-"Documents" = "󰈙 "
-"Downloads" = "󰉍 "
-"Music" = "󰝚 "
-"Pictures" = "󰉏 "
-"Videos" = "󰕧 "
-"projects" = "󱧼 "
-"code" = "󰲋 "
-".config" = "󱁿 "
-"Desktop" = "󰚝 "
+"Documents" = " 󰈙 "
+"Downloads" = " 󰉍 "
+"Music" = " 󰝚 "
+"Pictures" = " 󰉏 "
+"Videos" = " 󰕧 "
+".config" = " 󱁿 "
+"Desktop" = " 󰚝 "
 
 # Git branch - gentle purple
 [git_branch]
-symbol = "󰘬 "
+symbol = " 󰘬 "
 style = "dimmed purple"
 format = "[$symbol$branch]($style) "
 truncation_length = 30
