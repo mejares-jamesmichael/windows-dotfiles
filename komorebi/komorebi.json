@@ -6,7 +6,7 @@
   "default_workspace_padding": 3,
   "default_container_padding": 3,
   "border": true,
-  "border_implementation": "Windows",
+  "border_implementation": "Komorebi",
   "border_style": "System",
   "border_width": 1,
   "border_offset": 0,
@@ -22,9 +22,9 @@
   "transparency_alpha": 220,
   "animation": {
     "enabled": true,
-    "duration": 400,
-    "fps": 120,
-    "style": "EaseInOutBack"
+    "duration": 250,
+    "fps": 90,
+    "style": "EaseOutSine"
   },
   "theme": {
     "palette": "Base16",
@@ -54,11 +54,11 @@
         },
         {
           "name": "III",
-          "layout": "HorizontalStack"
+          "layout": "RightMainVerticalStack"
         },
         {
           "name": "IV",
-          "layout": "Columns"
+          "layout": "UltrawideVerticalStack"
         }
       ]
     }
