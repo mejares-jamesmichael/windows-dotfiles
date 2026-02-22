@@ -17,9 +17,9 @@ This repository contains my personal dotfiles and settings for Windows Terminal 
 
 Here are some screenshots:
 
-![pic1](pictures/pic1.png)
-![pic2](pictures/pic2.png)
-![pic3](pictures/pic3.png)
+![pic1](pictures/pic1-new.png)
+![pic2](pictures/pic2-new.png)
+![pic3](pictures/pic3-new.png)
 
 ## Features
 
