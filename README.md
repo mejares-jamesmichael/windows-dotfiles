@@ -1,15 +1,10 @@
-<details>
-<summary>Spoiler</summary>
-I am now using Komorebi(TWM) and YASB(Stats Bar)
-</details>
-
 # windowsDotfiles
 
 A collection of configuration files for customizing the Windows Terminal experience and related productivity tools.
 
 ## Overview
 
-This repository contains my personal dotfiles and settings for Windows Terminal and several Windows productivity tools. These configurations are tailored to streamline my workflow, enhance appearance, and optimize productivity on Windows systems.
+This repository contains my personal dotfiles and settings for Windows Terminal and several Windows productivity tools. These configurations are tailored to streamline my workflow, enhance appearance, and optimize productivity on Windows systems. The setup features Komorebi as the tiling window manager and YASB as the custom status bar, creating a cohesive and efficient desktop environment.
 
 **Note:** This README is a work in progress and will be updated with more details and documentation in the future.
 
@@ -28,13 +23,13 @@ Here are some screenshots:
 - Startup actions and profile settings
 - Easy-to-edit and extend configuration files
 - Configuration support for:
-  - [GlazeWM](https://github.com/glzr-io/GlazeWM): A tiling window manager for Windows
-  - [Zebar](https://github.com/zebar-org/Zebar): Custom status bar for Windows
+  - [Komorebi](https://github.com/LGUG2Z/komorebi): Tiling window manager for Windows
+  - [YASB](https://github.com/sxyazi/yasb): Custom status bar for Windows
   - [yazi](https://github.com/sxyazi/yazi): Blazing fast terminal file manager
   - [superfile](https://github.com/sxyazi/superfile): Lightweight file explorer
   - [fastfetch](https://github.com/fastfetch-cli/fastfetch): Neofetch-like system info tool
   - [winfetch](https://github.com/kiedtl/winfetch): Windows system info fetcher
-  - [lazygit](https://github.com/jesseduffield/lazygit): Git terminal
+  - [lazygit](https://github.com/jesseduffine/lazygit): Git terminal
   - [Neovim](https://github.com/neovim/neovim): Terminal text editor
 
 ## Getting Started
@@ -43,13 +38,13 @@ Here are some screenshots:
 
 - Windows 10/11
 - [Windows Terminal](https://github.com/microsoft/terminal)
-- [GlazeWM](https://github.com/glzr-io/GlazeWM)
-- [Zebar](https://github.com/zebar-org/Zebar)
+- [Komorebi](https://github.com/LGUG2Z/komorebi)
+- [YASB](https://github.com/sxyazi/yasb)
 - [yazi](https://github.com/sxyazi/yazi)
 - [superfile](https://github.com/sxyazi/superfile)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [winfetch](https://github.com/kiedtl/winfetch)
-- [lazygit](https://github.com/jesseduffield/lazygit)
+- [lazygit](https://github.com/jesseduffine/lazygit)
 - [Neovim](https://github.com/neovim/neovim)
 
 > Follow the respective installation guides for each tool linked above.
