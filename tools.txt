@@ -3,3 +3,4 @@ here are the opensource tools i just recently installed and being use for my dev
 spotify-player - via cargo
 television
 psmux
+keifu
