@@ -1,0 +1,53 @@
+[general]
+import = ["C:/Users/James Michael/AppData/Roaming/alacritty/themes/themes/catppuccin.toml"]
+
+[terminal]
+shell = { program = "C:\\Program Files\\PowerShell\\7\\pwsh.exe", args = ["-NoExit", "-WorkingDirectory", "~", "-NoProfileLoadTime", "-NoLogo"] }
+
+[window]
+dynamic_title = false
+decorations = "None"
+#opacity = 0.8
+  [window.padding]
+  x = 10
+  y = 10
+
+[font]
+size = 10
+  [font.normal]
+  family = "JetBrainsMono Nerd Font Mono"
+  style = "Regular"
+  [font.bold]
+  family = "JetBrainsMono Nerd Font Mono"
+  style = "Bold"
+  [font.italic]
+  family = "JetBrainsMono Nerd Font Mono"
+  style = "Italic"
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_interval = 500
+unfocused_hollow = true
+thickness = 0.15
+
+[mouse]
+hide_when_typing = true
+
+[scrolling]
+history = 10000
+multiplier = 5
+
+[bell]
+animation = "EaseOutExpo"
+duration = 150
+color = "#bb9af7"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control"
+action = "Copy"
