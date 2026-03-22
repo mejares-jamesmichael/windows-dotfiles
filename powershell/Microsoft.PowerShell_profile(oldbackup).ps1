@@ -9,9 +9,6 @@ Set-Alias gem gemini
 Set-Alias qwn qwen
 Set-Alias cop copilot
 
-#env Editor variable = Microsoft Edit
-$env:EDITOR = "edit"
-
 # UTF-8 everywhere
 try {
     [Console]::InputEncoding  = [System.Text.Encoding]::UTF8
@@ -50,49 +47,11 @@ function spf() {
     }
 }
 
-#claude code wrapper
-function claude {
-    # Replace all spaced paths in environment variables
-    Get-ChildItem Env: | ForEach-Object {
-        if ($_.Value -match "James Michael") {
-            Set-Item "Env:$($_.Name)" ($_.Value -replace "James Michael", "JamesMichael")
-        }
-    }
-    & "C:\Users\JamesMichael\.local\bin\claude.exe" @args
-    # Restore after exit
-    Get-ChildItem Env: | ForEach-Object {
-        if ($_.Value -match "JamesMichael") {
-            Set-Item "Env:$($_.Name)" ($_.Value -replace "JamesMichael", "James Michael")
-        }
-    }
-}
-
 # Go directly to the Programming Directory located at C drive (I have a symlink also that points to user directory)
 function dev { cd C:\kaelDev\Programming }
 
 # Go at home ~ directory instantly
 function home { cd ~ }
-
-# Television shell integration (Ctrl+T for files, Ctrl+R for history)
-Invoke-Expression (tv init power-shell | Out-String)
-
-# Open fuzzy file picker and launch in Neovim
-function tvim { nvim $(tv) }
-
-# Fuzzy search file contents and open in Neovim
-function ttext { nvim $(tv text) }
-
-# Fuzzy search and cd into a directory
-function tcd { cd $(tv dirs) }
-
-# Switch git branch with fuzzy search
-function tbranch { git checkout $(git branch --all | tv) }
-
-# Find a git repo and cd into it
-function trepo { cd $(tv git-repos) }
-
-# Fuzzy search env variables
-function tenv { tv env }
 
 # Run Chris-Titus-Tool
 function Run-CTT {
