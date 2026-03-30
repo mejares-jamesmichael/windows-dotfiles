@@ -17,14 +17,15 @@
     "monocle": "#f38ba8",
     "unfocused": "#303030"
   },
-  "mouse_follows_focus": true,
-  "transparency": true,
-  "transparency_alpha": 220,
+  "mouse_follows_focus": true, 
   "animation": {
     "enabled": true,
     "duration": 250,
-    "fps": 90,
-    "style": "EaseOutSine"
+    "fps": 144,
+    "style": {
+      "movement": "EaseOutSine",
+      "transparency": "Linear"
+    }
   },
   "theme": {
     "palette": "Base16",
@@ -46,19 +47,31 @@
       "workspaces": [
         {
           "name": "I",
-          "layout": "BSP"
+          "layout": "Scrolling",
+          "layout_options": {
+            "scrolling": {
+              "columns": 2,
+              "centered_focused_column": true
+            }
+          }
         },
         {
           "name": "II",
-          "layout": "VerticalStack"
+          "layout": "Scrolling",
+          "layout_options": {
+            "scrolling": {
+              "columns": 1,
+              "centered_focused_column": true
+            }
+          }
         },
         {
           "name": "III",
-          "layout": "RightMainVerticalStack"
+          "layout": "VerticalStack"
         },
         {
           "name": "IV",
-          "layout": "UltrawideVerticalStack"
+          "layout": "BSP"
         }
       ]
     }
