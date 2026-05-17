@@ -1,0 +1,27 @@
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "5d5c480"
+hash = "b94720e0ef40cb0e97093fabd9694775"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "5d5c480"
+hash = "1e3b6c8b03dae81c3672ec9e9700b666"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:jump-to-char"
+rev = "5d5c480"
+hash = "6e67c36d6c25fc84cb0976aac8a3ff5"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-filter"
+rev = "5d5c480"
+hash = "c8695b60cdf205d9ee71efcba4fd40af"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:diff"
+rev = "5d5c480"
+hash = "8f1088536824d36712c588e5c9ef5c28"
+
+[flavor]
+deps = []
