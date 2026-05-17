@@ -21,7 +21,16 @@ return {
           winbar = false,
         },
         config = {
-          header = ascii.art.misc.hydra.hydra,
+          header = (function()
+            local art = ascii.art.text.neovim.delta_corps_priest1
+            local top_padding = { "", "", "", "", "" }
+            local bottom_padding = { "", "" }
+            local result = {}
+            vim.list_extend(result, top_padding)
+            vim.list_extend(result, art)
+            vim.list_extend(result, bottom_padding)
+            return result
+          end)(),
           center = {
             {
               icon = " ",
