@@ -47,34 +47,6 @@ Here are some screenshots:
 - [lazygit](https://github.com/jesseduffine/lazygit)
 - [Neovim](https://github.com/neovim/neovim)
 
-> Follow the respective installation guides for each tool linked above.
-
-### Installation
-
-1. Clone this repository:
-
-   ```sh
-   git clone https://github.com/mejares-jamesmichael/windowsDotfiles.git
-   ```
-
-2. Locate the configuration directories for each application:
-   - **Windows Terminal:**  
-     `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState`
-   - **GlazeWM:**  
-     `%USERPROFILE%\.glzr\.glazewm`
-   - **Zebar:**  
-     `%USERPROFILE%\.glzr\.zebar`
-   - **yazi:**  
-     `%USERPROFILE%\.config\yazi`
-   - **superfile:**  
-     `%USERPROFILE%\.config\superfile`
-   - **fastfetch/winfetch:**  
-     Usually run from command line; configs may be stored in user profile or specific folders.
-
-3. Replace or merge the configuration files in this repo with your local settings for each tool.
-
-4. Restart the applications to apply changes.
-
 ### Customization
 
 Feel free to edit any configuration file to suit your preferences:
@@ -84,37 +56,6 @@ Feel free to edit any configuration file to suit your preferences:
 - Adjust window manager layouts and status bar modules (GlazeWM, Zebar)
 - Tweak file manager and explorer options (yazi, superfile)
 - Edit system info display settings (fastfetch, winfetch)
-
-## Repository Structure
-
-```text
-windowsDotfiles/
-├── Windows Terminal      # Windows Terminal configuration
-├── glazewm/              # GlazeWM configuration files
-├── zebar/                # Zebar configuration files
-├── yazi/                 # yazi file manager configs
-├── superfile/            # superfile explorer configs
-├── fastfetch/            # fastfetch configs
-├── winfetch/             # winfetch configs
-├── pictures/             # Screenshots and images for README
-├── powershell/           # powershell profile config
-└── README.md             # Project documentation
-```
-
-## FAQ
-
-**Q: What does this repository configure?**  
-A: Windows Terminal, plus configs for GlazeWM, Zebar, yazi, superfile, fastfetch, and winfetch.
-
-**Q: How do I revert changes?**  
-A: Restore your original configuration files from a backup or reset settings in the respective app.
-
-**Q: Can I use only some configs?**  
-A: Yes, you can pick and choose which application's configs to use.
-
-## Contributing
-
-Pull requests and suggestions are welcome! Please open an issue or PR if you have improvements or ideas.
 
 ## License
 
