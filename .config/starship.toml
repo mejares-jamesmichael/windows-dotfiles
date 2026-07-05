@@ -51,12 +51,12 @@ symbol = " "
 # OS icon - subtle system indicator
 [os]
 disabled = false
-format = "[$symbol]($style) "
+format = "[$symbol]($style)  "
 
 [os.symbols]
 Macos = "󰀵"
 Linux = "󰌽"
-Windows = ""
+Windows = "󰯉"
 Arch = "󰣇"
 Ubuntu = "󰕈"
 Debian = "󰣚"
@@ -92,7 +92,7 @@ truncation_length = 3
 truncate_to_repo = true
 truncation_symbol = "…/"
 format = "[$path]($style)[$read_only]($read_only_style) "
-home_symbol = " 󰋜 "
+home_symbol = "  "
 
 [directory.substitutions]
 "Documents" = " 󰈙 "
@@ -155,9 +155,9 @@ style = "dimmed white"
 
 # Character - zen prompt symbol
 [character]
-success_symbol = "[󰘧](green)"
-error_symbol = "[󰘧](red)"
-vimcmd_symbol = "[󰘧](dimmed green)"
+success_symbol = "[󰘵](green)"
+error_symbol = "[󰘵](red)"
+vimcmd_symbol = "[󰘵](dimmed green)"
 
 # Package version
 [package]
