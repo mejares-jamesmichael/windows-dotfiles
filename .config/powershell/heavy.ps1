@@ -102,3 +102,8 @@ function Serve-Folder {
         Write-Host "🛑 Server stopped."
     }
 }
+
+# ----------- 9. Anifetch (Fastfetch Animated) -------------
+function af {
+    anifetch "$HOME\pictures\gotchard-gatchanko.gif" -ca "--symbols block"
+  }
