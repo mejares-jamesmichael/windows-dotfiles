@@ -11,8 +11,8 @@
     "separator": " "
   },
   "modules": [
-	  "break",
-	  {
+    "break",
+    {
       "type": "title",
       "format": "{#34}{user-name}@{host-name}{#}"
     },
@@ -52,7 +52,6 @@
       "type": "colors",
       "symbol": "square"
     },
-
     "break"
   ]
 }
