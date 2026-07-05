@@ -17,7 +17,7 @@
     "monocle": "#f38ba8",
     "unfocused": "#303030"
   },
-  "mouse_follows_focus": true, 
+  "mouse_follows_focus": true,
   "animation": {
     "enabled": true,
     "duration": 250,
@@ -67,7 +67,13 @@
         },
         {
           "name": "III",
-          "layout": "VerticalStack"
+          "layout": "Scrolling",
+          "layout_options": {
+            "scrolling": {
+              "columns": 2,
+              "centered_focused_column": true
+            }
+          }
         },
         {
           "name": "IV",
