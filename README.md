@@ -37,6 +37,7 @@ check the **[Picture](pictures)** to see more!
   - [psmux](https://github.com/psmux/psmux): Terminal multiplexer, good tmux windows port! (psmux 3.3.1)
   - [television](https://github.com/alexpasmantier/television): A very fast, portable and hackable fuzzy finder (television 0.15.9)
   - [tarts](https://github.com/oiwn/tarts): Screen savers and visual effects for your terminal! (tarts 0.1.25)
+  - [spotfy_player](https://github.com/aome510/spotify-player): A Spotify player in the terminal with full feature parity (spotify_player 0.22.1)
 
 ### Customization
 
