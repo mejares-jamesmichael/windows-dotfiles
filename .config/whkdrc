@@ -1,4 +1,4 @@
-.shell pwsh
+.shell powershell
 
 # Reload whkd configuration
 # alt + o                 : taskkill /f /im whkd.exe && start /b whkd # if shell is cmd
@@ -10,7 +10,7 @@ alt + i                 : komorebic toggle-shortcuts
 # App shortcuts - these require shell to be pwsh / powershell
 # The apps will be focused if open, or launched if not open
 # alt + f                 : if ($wshell.AppActivate('Firefox') -eq $False) { start firefox }
-alt + b                 : if ($wshell.AppActivate('Edge') -eq $False) { start msedge }
+alt + b                 : if ($wshell.AppActivate('Helium') -eq $False) { start helium }
 alt + return 			: if ($wshell.AppActivate('Windows Terminal') -eq $False) { start wt }
 
 alt + q                 : komorebic close
