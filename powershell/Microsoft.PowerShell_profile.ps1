@@ -5,12 +5,16 @@ Set-Alias lg lazygit
 Set-Alias ld lazydocker
 Set-Alias ff fastfetch
 Set-Alias op opencode
-Set-Alias gem gemini
-Set-Alias qwn qwen
+Set-Alias kr  kiro-cli
 Set-Alias cop copilot
+Set-Alias wheree where.exe
+Set-Alias spotfy spotify_player
+Set-Alias kf keifu
+Set-Alias zj zellij
+Set-Alias tm tmux
 
-#env Editor variable = Microsoft Edit
-$env:EDITOR = "edit"
+#env Editor variable = Microsoft Edit (edit) Neovim (nvim)
+$env:EDITOR = "nvim"
 
 # UTF-8 everywhere
 try {
@@ -21,9 +25,6 @@ try {
 } catch {
     Write-Warning "Failed to set UTF-8 encoding: $_"
 }
-
-# Environment variables
-$Env:YAZI_FILE_ONE = 'C:\Program Files\Git\usr\bin\file.exe'
 
 # Functions (lightweight, no external calls)
 # yazi
@@ -40,7 +41,7 @@ function y {
 # superfile
 function spf() {
     param ([string[]]$Params)
-    $spf_location = "C:\Users\James Michael\AppData\Local\Microsoft\WinGet\Packages\yorukot.superfile_Microsoft.Winget.Source_8wekyb3d8bbwe\dist\superfile-windows-v1.4.0-amd64\spf.exe"
+    $spf_location = "C:\Users\James Michael\scoop\apps\superfile\current\spf.exe"
     $SPF_LAST_DIR_PATH = [Environment]::GetFolderPath("LocalApplicationData") + "\superfile\lastdir"
     & $spf_location @Params
     if (Test-Path $SPF_LAST_DIR_PATH) {
@@ -94,6 +95,12 @@ function trepo { cd $(tv git-repos) }
 # Fuzzy search env variables
 function tenv { tv env }
 
+# Tmux create session from the root directory
+function tnew { 
+    param([string]$name = (Split-Path $PWD -Leaf))
+    tmux new -s $name -c $PWD
+}
+
 # Run Chris-Titus-Tool
 function Run-CTT {
     Start-Process wt -Verb RunAs -ArgumentList `
@@ -104,3 +111,4 @@ function Run-CTT {
 if ($env:FAST_START -ne '1') {
     . "$HOME\.config\powershell\heavy.ps1"
 }
+
