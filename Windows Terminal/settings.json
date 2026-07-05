@@ -27,10 +27,18 @@
                 "splitMode": "duplicate"
             },
             "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "\u001b\r"
+            },
+            "id": "User.sendInput.8F63D3A9"
         }
     ],
-    "alwaysOnTop": true,
-    "alwaysShowNotificationIcon": false,
+    "alwaysOnTop": false,
+    "alwaysShowNotificationIcon": true,
     "alwaysShowTabs": true,
     "autoHideWindow": false,
     "copyFormatting": "none",
@@ -43,6 +51,14 @@
     "keybindings": 
     [
         {
+            "id": "User.sendInput.8F63D3A9",
+            "keys": "shift+enter"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        },
+        {
             "id": "User.copy.644BA8F2",
             "keys": "ctrl+c"
         },
@@ -53,12 +69,9 @@
         {
             "id": "User.paste",
             "keys": "ctrl+v"
-        },
-        {
-            "id": "User.splitPane.A6751878",
-            "keys": "alt+shift+d"
         }
     ],
+    "launchMode": "focus",
     "minimizeToNotificationArea": false,
     "newTabMenu": 
     [
@@ -73,18 +86,20 @@
             "adjustIndistinguishableColors": "indexed",
             "backgroundImage": null,
             "backgroundImageOpacity": 0.5,
-            "colorScheme": "One Half Dark",
+            "colorScheme": "catppuccin-mocha",
             "cursorShape": "vintage",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
                 "builtinGlyphs": false,
-                "face": "JetBrainsMono Nerd Font Mono",
-                "size": 12,
+                "face": "JetBrainsMono Nerd Font",
+                "size": 8,
                 "weight": "normal"
             },
             "intenseTextStyle": "bright",
-            "opacity": 50,
+            "opacity": 75,
+            "padding": "5,3,5,0",
+            "scrollbarState": "hidden",
             "useAcrylic": true
         },
         "list": 
@@ -139,15 +154,15 @@
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
             {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": true,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
                 "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
                 "hidden": false,
                 "name": "kali-linux",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
             }
         ]
@@ -253,5 +268,6 @@
     "tabWidthMode": "equal",
     "theme": "dark",
     "themes": [],
-    "useAcrylicInTabRow": true
+    "useAcrylicInTabRow": true,
+    "warning.largePaste": false
 }
