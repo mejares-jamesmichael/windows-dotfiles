@@ -16,6 +16,8 @@ Here are some screenshots:
 ![pic2](pictures/rice2.png)
 ![pic3](pictures/rice3.png)
 
+check the **[Picture](pictures)** to see more!
+
 ## Features
 
 - Custom Windows Terminal settings
