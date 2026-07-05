@@ -25,14 +25,15 @@ check the **[Picture](pictures)** to see more!
 - Startup actions and profile settings
 - Easy-to-edit and extend configuration files
 - Configuration support for:
-  - [Komorebi](https://github.com/LGUG2Z/komorebi): Tiling window manager for Windows
-  - [YASB](https://github.com/sxyazi/yasb): Custom status bar for Windows
-  - [yazi](https://github.com/sxyazi/yazi): Blazing fast terminal file manager
-  - [superfile](https://github.com/sxyazi/superfile): Lightweight file explorer
-  - [fastfetch](https://github.com/fastfetch-cli/fastfetch): Neofetch-like system info tool
+  - [Komorebi](https://github.com/LGUG2Z/komorebi): Tiling window manager for Windows (komorebic 0.1.41)
+  - [YASB](https://github.com/sxyazi/yasb): Custom status bar for Windows (version 1.8.7)
+  - [yazi](https://github.com/sxyazi/yazi): Blazing fast terminal file manager (Yazi 26.5.6)
+  - [superfile](https://github.com/sxyazi/superfile): Lightweight file explorer (superfile version v1.6.0)
+  - [fastfetch](https://github.com/fastfetch-cli/fastfetch): Neofetch-like system info tool (fastfetch 2.64.2 (x86_64))
+  - [anifetch](https://github.com/Notenlish/anifetch): Animated system fetch connected to fastfetch (Anifetch 1.0.5)
   - [winfetch](https://github.com/kiedtl/winfetch): Windows system info fetcher
   - [lazygit](https://github.com/jesseduffine/lazygit): Git terminal
-  - [Neovim](https://github.com/neovim/neovim): Terminal text editor
+  - [Neovim](https://github.com/neovim/neovim): Terminal text editor (NVIM v0.12.3)
 
 ## Getting Started
 
