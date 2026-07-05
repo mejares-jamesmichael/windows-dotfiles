@@ -34,6 +34,8 @@ check the **[Picture](pictures)** to see more!
   - [winfetch](https://github.com/kiedtl/winfetch): Windows system info fetcher
   - [lazygit](https://github.com/jesseduffine/lazygit): Git terminal
   - [Neovim](https://github.com/neovim/neovim): Terminal text editor (NVIM v0.12.3)
+  - [psmux](https://github.com/psmux/psmux): Terminal multiplexer, good tmux windows port! (psmux 3.3.1)
+  - [television](https://github.com/alexpasmantier/television): A very fast, portable and hackable fuzzy finder (television 0.15.9)
 
 ## Getting Started
 
