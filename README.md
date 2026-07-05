@@ -12,9 +12,9 @@ This repository contains my personal dotfiles and settings for Windows Terminal 
 
 Here are some screenshots:
 
-![pic1](pictures/pic1-new.png)
-![pic2](pictures/pic2-new.png)
-![pic3](pictures/pic3-new.png)
+![pic1](pictures/rice1.png)
+![pic2](pictures/rice2.png)
+![pic3](pictures/rice3.png)
 
 ## Features
 
@@ -52,9 +52,11 @@ Here are some screenshots:
 ### Installation
 
 1. Clone this repository:
+
    ```sh
    git clone https://github.com/mejares-jamesmichael/windowsDotfiles.git
    ```
+
 2. Locate the configuration directories for each application:
    - **Windows Terminal:**  
      `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState`
@@ -76,6 +78,7 @@ Here are some screenshots:
 ### Customization
 
 Feel free to edit any configuration file to suit your preferences:
+
 - Change color schemes, font size, or profile settings
 - Add custom key bindings or shortcuts
 - Adjust window manager layouts and status bar modules (GlazeWM, Zebar)
