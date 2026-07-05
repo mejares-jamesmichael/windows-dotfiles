@@ -37,21 +37,6 @@ check the **[Picture](pictures)** to see more!
   - [psmux](https://github.com/psmux/psmux): Terminal multiplexer, good tmux windows port! (psmux 3.3.1)
   - [television](https://github.com/alexpasmantier/television): A very fast, portable and hackable fuzzy finder (television 0.15.9)
 
-## Getting Started
-
-### Prerequisites
-
-- Windows 10/11
-- [Windows Terminal](https://github.com/microsoft/terminal)
-- [Komorebi](https://github.com/LGUG2Z/komorebi)
-- [YASB](https://github.com/sxyazi/yasb)
-- [yazi](https://github.com/sxyazi/yazi)
-- [superfile](https://github.com/sxyazi/superfile)
-- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- [winfetch](https://github.com/kiedtl/winfetch)
-- [lazygit](https://github.com/jesseduffine/lazygit)
-- [Neovim](https://github.com/neovim/neovim)
-
 ### Customization
 
 Feel free to edit any configuration file to suit your preferences:
