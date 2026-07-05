@@ -38,6 +38,7 @@ check the **[Picture](pictures)** to see more!
   - [television](https://github.com/alexpasmantier/television): A very fast, portable and hackable fuzzy finder (television 0.15.9)
   - [tarts](https://github.com/oiwn/tarts): Screen savers and visual effects for your terminal! (tarts 0.1.25)
   - [spotfy_player](https://github.com/aome510/spotify-player): A Spotify player in the terminal with full feature parity (spotify_player 0.22.1)
+  - [LazyVim](https://github.com/LazyVim/LazyVim): Neovim config for the lazy
 
 ### Customization
 
