@@ -1,0 +1,48 @@
+Here's the list of the stuff that is installed in my LazyVim Mason Packages
+
+                                    mason.nvim v2.3.1 
+                                    press g? for help
+                         https://github.com/mason-org/mason.nvim
+   (1) All   (2) LSP   (3) DAP   (4) Linter   (5) Formatter  
+
+  Language Filter: press <C-f> to apply filter
+
+  Installed
+    ◍ actionlint
+    ◍ angular-language-server angularls
+    ◍ basedpyright
+    ◍ bash-language-server bashls
+    ◍ codelldb
+    ◍ css-lsp cssls
+    ◍ docker-compose-language-service docker_compose_language_service
+    ◍ dockerfile-language-server dockerls
+    ◍ hadolint
+    ◍ html-lsp html
+    ◍ intelephense
+    ◍ jdtls
+    ◍ json-lsp jsonls
+    ◍ laravel-ls laravel_ls
+    ◍ lua-language-server lua_ls
+    ◍ markdown-toc
+    ◍ markdownlint-cli2
+    ◍ marksman
+    ◍ php-cs-fixer
+    ◍ phpcs
+    ◍ phpstan
+    ◍ pint
+    ◍ powershell-editor-services powershell_es
+    ◍ prettier
+    ◍ pyright
+    ◍ ruff
+    ◍ rust-analyzer rust_analyzer
+    ◍ shellcheck
+    ◍ shfmt
+    ◍ stylua
+    ◍ svelte-language-server svelte
+    ◍ taplo
+    ◍ typescript-language-server ts_ls
+    ◍ vtsls
+    ◍ yaml-language-server yamlls
+    ◍ zls
+
+
