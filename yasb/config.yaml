@@ -1,7 +1,7 @@
 watch_stylesheet: true
 watch_config: true
 debug: false
-update_check: true
+update_check: false
 komorebi:
   start_command: "komorebic start --whkd"
   stop_command: "komorebic stop --whkd"
@@ -9,7 +9,7 @@ komorebi:
 bars:
   primary-bar:
     enabled: true
-    screens: ["primary"]
+    screens: ["*"]
     class_name: "yasb-bar"
     alignment:
       position: "top"
@@ -33,24 +33,24 @@ bars:
     padding:
       top: 4
       left: 4
-      bottom: 4
+      bottom: 1
       right: 4
     widgets:
       left:
-      - "home"
-      - "komorebi_workspaces"
-      - "active_window"
+        - "home"
+        - "komorebi_workspaces"
+        - "active_window"
       center:
-      - "clock"
+        - "clock"
       right:
-      - "cava"
-      - "media"
-      - "systray"
-      - "grouped_widgets"
-      - "wallpapers"
-      - "volume"
-      - "notifications"
-      - "power_menu"
+        - "cava"
+        - "media"
+        - "systray"
+        - "grouped_widgets"
+        - "wallpapers"
+        - "volume"
+        - "notifications"
+        - "power_menu"
 widgets:
   media:
     type: "yasb.media.MediaWidget"
@@ -138,23 +138,23 @@ widgets:
       change_automatically: false # Automatically change wallpaper
       update_interval: 60 # If change_automatically is true, update interval in seconds
       gallery:
-          enabled: true
-          blur: true
-          image_width: 220
-          image_per_page: 8
-          show_buttons: false
-          orientation: "portrait"
-          image_spacing: 8
-          lazy_load: true
-          lazy_load_delay: 80
-          lazy_load_fadein: 400
-          image_corner_radius: 20
-          enable_cache: true
+        enabled: true
+        blur: true
+        image_width: 220
+        image_per_page: 8
+        show_buttons: false
+        orientation: "portrait"
+        image_spacing: 8
+        lazy_load: true
+        lazy_load_delay: 80
+        lazy_load_fadein: 400
+        image_corner_radius: 20
+        enable_cache: true
       label_shadow:
         enabled: true
         color: "black"
         radius: 3
-        offset: [ 1, 1 ]
+        offset: [1, 1]
   cava:
     type: "yasb.cava.CavaWidget"
     options:
@@ -162,9 +162,9 @@ widgets:
       min_bar_height: 0
       gradient: 1
       foreground: "#89b4fa"
-      gradient_color_1: '#74c7ec'
-      gradient_color_2: '#89b4fa'
-      gradient_color_3: '#cba6f7'
+      gradient_color_1: "#74c7ec"
+      gradient_color_2: "#89b4fa"
+      gradient_color_3: "#cba6f7"
       bars_number: 8
       bar_spacing: 2
       bar_width: 4
@@ -224,10 +224,10 @@ widgets:
     options:
       label: "<span>\ue8e5</span>"
       menu_list:
-      - { title: "User Home", path: "~" }
-      - { title: "Download", path: "~\\Downloads" }
-      - { title: "Documents", path: "~\\Documents" }
-      - { title: "Pictures", path: "~\\Pictures" }
+        - { title: "User Home", path: "~" }
+        - { title: "Download", path: "~\\Downloads" }
+        - { title: "Documents", path: "~\\Documents" }
+        - { title: "Pictures", path: "~\\Pictures" }
       system_menu: true
       power_menu: true
       blur: true
@@ -393,11 +393,7 @@ widgets:
     type: "yasb.grouper.GrouperWidget"
     options:
       class_name: "grouped-widgets"
-      widgets: [
-        "memory",
-        "cpu",
-        "weather"
-      ]
+      widgets: ["memory", "cpu", "weather"]
       container_padding:
         top: 0
         left: 2
