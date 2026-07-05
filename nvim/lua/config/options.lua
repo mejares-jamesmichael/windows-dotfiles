@@ -4,3 +4,4 @@
 
 -- Use PowerShell 7 as the terminal shell
 vim.o.shell = "pwsh.exe"
+vim.env.XDG_DATA_HOME = "C:/nvimdata"
