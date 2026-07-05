@@ -36,7 +36,7 @@ check the **[Picture](pictures)** to see more!
   - [Neovim](https://github.com/neovim/neovim): Terminal text editor (NVIM v0.12.3)
   - [psmux](https://github.com/psmux/psmux): Terminal multiplexer, good tmux windows port! (psmux 3.3.1)
   - [television](https://github.com/alexpasmantier/television): A very fast, portable and hackable fuzzy finder (television 0.15.9)
-  - [tarts](https://github.com/oiwn/tarts): Screen savers and visual effects for your terminal!(tarts 0.1.25)
+  - [tarts](https://github.com/oiwn/tarts): Screen savers and visual effects for your terminal! (tarts 0.1.25)
 
 ### Customization
 
