@@ -106,4 +106,13 @@ function Serve-Folder {
 # ----------- 9. Anifetch (Fastfetch Animated) -------------
 function af {
     anifetch "$HOME\pictures\gotchard-gatchanko.gif" -ca "--symbols block"
-  }
+}
+
+# ----------- 10. ClearScreen (ClearScreen using Tarts) -------------
+# ArgumentList options: matrix, boids, maze, cube, crab, donut, pipes, plasma, fire, constellation, blank
+function clr {
+  $ClearScreenProcess = Start-Process -FilePath "tarts" -ArgumentList "plasma" -PassThru -NoNewWindow
+  Start-Sleep -Seconds 2
+  Stop-Process -Id $ClearScreenProcess.Id -Force -ErrorAction SilentlyContinue
+  Clear-Host
+}
