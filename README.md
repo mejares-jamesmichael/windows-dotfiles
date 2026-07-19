@@ -15,6 +15,7 @@ Here are some screenshots:
 ![pic1](pictures/rice1.png)
 ![pic2](pictures/rice2.png)
 ![pic3](pictures/rice3.png)
+![pic4](pictures/rice7.png)
 
 check the **[Picture](pictures)** to see more!
 
