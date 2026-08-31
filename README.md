@@ -1,3 +1,7 @@
+[!NOTE]
+This repository is now archived. These Windows dotfiles will not receive 
+updates because I have transitioned to using a Linux distribution (Arch).
+
 # windowsDotfiles
 
 A collection of configuration files for customizing the Windows Terminal experience and related productivity tools.
